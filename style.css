@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(assets/bg.jpg);
+    background-image: url(assets/bg2.jpg);
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ body {
     padding: 1.5rem;
     background-color: #F0E8C2;
     border-radius: 1.5rem;
-    margin: 3rem auto;
+    margin: 3rem auto 1.75rem;
 }
 
 img {
@@ -37,6 +37,10 @@ section + section {
 
 #about p + p {
     margin-top: 0.75rem;
+}
+
+p {
+    margin: 0.75rem;
 }
 
 h1 {
@@ -56,4 +60,14 @@ h1, h2 {
 
 ul {
     padding-left: 1.5rem;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+footer img {
+    vertical-align: middle;
 }
